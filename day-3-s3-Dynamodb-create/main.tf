@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "test" {
-    bucket = "my-cus-bucket"
+    bucket = "logi-tekk-01"
   
 }
 resource "aws_dynamodb_table" "dynamodb-terraform-state-lock" {
